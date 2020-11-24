@@ -39,6 +39,14 @@ tester.run('vue-root-class', rule, {
     },
     {
       filename: 'FooBar.vue',
+      code: '<template class="rootclassic">\n</template>',
+      errors: [
+        'Components must have a root node which bears the "' + TEST_CLASS + '" class.'
+      ],
+      options: [{ class: TEST_CLASS }]
+    },
+    {
+      filename: 'FooBar.vue',
       code: '<template><div>nope</div></template>',
       errors: [
         'Components must bear the "' + TEST_CLASS + '" class in their root node.'
