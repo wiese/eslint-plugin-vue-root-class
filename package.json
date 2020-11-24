@@ -1,0 +1,40 @@
+{
+  "name": "eslint-plugin-vue-root-class",
+  "version": "0.1.0",
+  "description": "ESLint plugin to check vue components for a root class",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "standard && node tests/lib/rules/vue-root-class.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiese/eslint-plugin-vue-root-class.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "vue"
+  ],
+  "author": "wiese (https://github.com/wiese)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/wiese/eslint-plugin-vue-root-class/issues"
+  },
+  "homepage": "https://github.com/wiese/eslint-plugin-vue-root-class#readme",
+  "dependencies": {
+    "vue-eslint-parser": "^7.1.1"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0",
+    "vue": "^2.0.0"
+  }
+}
