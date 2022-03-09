@@ -34,7 +34,7 @@
     "standard": "^16.0.3"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0",
-    "vue": "^2.0.0"
+    "eslint": "^7.0.0||^8",
+    "vue": "^2.0.0||^3"
   }
 }
