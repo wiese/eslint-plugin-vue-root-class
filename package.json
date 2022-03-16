@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-vue-root-class",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ESLint plugin to check vue components for a root class",
   "engines": {
     "node": ">=10.12.0"
