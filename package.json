@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/wiese/eslint-plugin-vue-root-class#readme",
   "dependencies": {
-    "vue-eslint-parser": "^7.1.1"
+    "vue-eslint-parser": "^7.1.1||^8"
   },
   "devDependencies": {
     "standard": "^16.0.3"
